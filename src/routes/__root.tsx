@@ -77,6 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Bonfleur" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Bonfleur — The Bonsai & Flower Shop, Udaipur" },
+      { name: "twitter:title", content: "Bonfleur — The Bonsai & Flower Shop, Udaipur" },
+      { property: "og:description", content: "A large variety of beautiful plants, flowers and bonsai available for order in Udaipur." },
+      { name: "twitter:description", content: "A large variety of beautiful plants, flowers and bonsai available for order in Udaipur." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/DcwzO1xHjjOItEiUsQUUnccWe513/social-images/social-1780067642452-WhatsApp_Image_2026-05-27_at_20.22.47_(1).webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/DcwzO1xHjjOItEiUsQUUnccWe513/social-images/social-1780067642452-WhatsApp_Image_2026-05-27_at_20.22.47_(1).webp" },
     ],
     links: [
       {
