@@ -93,16 +93,29 @@ function Index() {
             </div>
           </div>
           <div className="md:col-span-6">
-            <div className="relative overflow-hidden rounded-2xl bg-[var(--color-cream)] shadow-[0_30px_80px_-30px_oklch(0.3_0.07_150/0.4)]">
+            <div className="relative overflow-hidden rounded-2xl shadow-[0_30px_80px_-30px_oklch(0.3_0.07_150/0.4)]">
               <img
-                src={banner}
-                alt="Pink adenium desert rose in bloom — Bonfleur"
-                className="block h-auto w-full"
-                width={1179}
-                height={430}
+                src={shop2}
+                alt="Plants at Bonfleur, Udaipur"
+                className="block h-[420px] w-full object-cover md:h-[540px]"
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* BANNER BAND — hand-painted shop sign, full-width quiet moment */}
+      <section aria-label="Bonfleur shop sign" className="bg-[var(--color-cream)]">
+        <div className="mx-auto max-w-5xl px-5 py-10 md:py-14">
+          <figure className="overflow-hidden rounded-sm">
+            <img
+              src={banner}
+              alt="Bonfleur — the bonsai & flower shop, hand-painted sign"
+              className="block h-auto w-full"
+              width={1179}
+              height={430}
+            />
+          </figure>
         </div>
       </section>
 
