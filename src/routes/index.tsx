@@ -97,9 +97,9 @@ function Index() {
               <img
                 src={banner}
                 alt="Pink adenium desert rose in bloom — Bonfleur"
-                className="h-[360px] w-full object-contain md:h-[520px]"
-                width={1200}
-                height={520}
+                className="block h-auto w-full"
+                width={1179}
+                height={430}
               />
             </div>
           </div>
