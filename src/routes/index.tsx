@@ -93,15 +93,14 @@ function Index() {
             </div>
           </div>
           <div className="md:col-span-6">
-            <div className="relative overflow-hidden rounded-2xl shadow-[0_30px_80px_-30px_oklch(0.3_0.07_150/0.4)]">
+            <div className="relative overflow-hidden rounded-2xl bg-[var(--color-cream)] shadow-[0_30px_80px_-30px_oklch(0.3_0.07_150/0.4)]">
               <img
                 src={banner}
                 alt="Pink adenium desert rose in bloom — Bonfleur"
-                className="h-[360px] w-full object-cover md:h-[520px] animate-slow-zoom"
+                className="h-[360px] w-full object-contain md:h-[520px]"
                 width={1200}
                 height={520}
               />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-[var(--color-leaf-deep)]/30 via-transparent to-transparent" />
             </div>
           </div>
         </div>
